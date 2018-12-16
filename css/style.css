@@ -18,15 +18,13 @@
     margin-left:auto;
 }
 
-/* nav bar. NOT sticking ++++++++++++++++++++++++++++++++++++++++++ */
+/* nav bar.  */
 nav{
     margin: 0;
     padding: 0;
     left: 0;
     top: 0;
     width: 100%;
-    position: sticky;
-    /* position: relative; for non-sticky */
     z-index: 1;
     background: white;
 }
@@ -34,6 +32,14 @@ nav{
 a{
    color: rgb(8, 97, 67);
 }
+
+/* made it sticky */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 
 /* header image ++++++++++++++++++++++++++++++++++++++++++++++++++++fix*/ 
 
@@ -194,4 +200,10 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size:1.2em;
     font-weight: bold;
+}
+
+/* LOGO for programs */
+
+.logo{
+    height: 5em;
 }
